@@ -13,9 +13,9 @@
     <div class="first-screen">
       <h1 class="main-txt">¿Tu empresa necesita mejor conectividad?</h1>
     </div>
-
-    <div class="icons" >
-      <div class="icon" >
+    
+    <div class="row">
+      <div class="column">
         <img
           src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/01.png"
           data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/01.png"
@@ -23,46 +23,65 @@
           height="150"
           alt="Image module"
         />
-        <h3>Prueba</h3>
+        <h3>Prueba Destroy-Com</h3>
       </div>
-    <img
-      src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/02.png"
-      data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/02.png"
-      width="150"
-      height="150"
-      alt="Image module"
-    />
-    <img
-      src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/06.png"
-      data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/06.png"
-      width="150"
-      height="150"
-      alt="Image module"
-    />
-    <img
-      src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/03-1.png"
-      data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/03-1.png"
-      width="150"
-      height="150"
-      alt="Image module"
-    />
-    <img
-      src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/04-1.png"
-      data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/04-1.png"
-      width="150"
-      height="150"
-      alt="Image module"
-    />
-    <img
-      src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/05-1.png"
-      data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/05-1.png"
-      width="150"
-      height="150"
-      alt="Image module"
-    />
-    </div>
 
-    
+      <div class="column">
+        <img
+          src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/02.png"
+          data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/02.png"
+          width="150"
+          height="150"
+          alt="Image module"
+        />
+        <h3>Capacítate</h3>
+      </div>
+
+      <div class="column">
+        <img
+          src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/06.png"
+          data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/06.png"
+          width="150"
+          height="150"
+          alt="Image module"
+        />
+        <h3>Cronograma de atención</h3>
+      </div>
+
+      <div class="column">
+        <img
+          src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/03-1.png"
+          data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/03-1.png"
+          width="150"
+          height="150"
+          alt="Image module"
+        />
+        <h3>Soluciona incidencias</h3>
+      </div>
+
+      <div class="column">
+        <img
+          src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/04-1.png"
+          data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/04-1.png"
+          width="150"
+          height="150"
+          alt="Image module"
+        />
+        <h3>Preguntas frecuentes</h3>
+      </div>
+
+      <div class="column">
+        <img
+          src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/05-1.png"
+          data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/05-1.png"
+          width="150"
+          height="150"
+          alt="Image module"
+        />
+        <h3>Diagnostica tu red</h3>
+      </div>
+
+    </div>
 
     <!-- <div class="adopt">
       <DogInfoHome
@@ -89,16 +108,16 @@ export default {
 </script>
 
 <style scoped>
-.main-txt{
+.main-txt {
   color: white;
   font-size: 60px;
   padding-top: 10px;
 }
+
 .first-screen {
   background-image: url("../../assets/servidor.jpg");
   text-align: center;
   min-height: 700px;
-  opacity : 0.3;
 }
 
 .nav-bar {
@@ -113,12 +132,26 @@ export default {
   margin-left: 10px;
 }
 
-.icons {
-  margin-top: 50px;
+
+.row > .column {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.icon {
-  display: inline;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16%;
+  align-content: center;
+}
+
+.column h3 {
+  padding-left: 110px;
 }
 
 img {
