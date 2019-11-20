@@ -1,7 +1,6 @@
 <template>
   <section>
     <div class="nav-bar">
-      <UserNavBar/>
     </div>
     <section class="user-container" >
       <div class="user-info">
@@ -37,13 +36,10 @@
 </template>
 
 <script>
-import UserNavBar from '../generic-cmpts/UserNavBar.vue';
-import DogInfo from '../generic-cmpts/DogInfo.vue';
 import DogForm from './DogForm';
-import EntryNewPet from '../generic-cmpts/EntryNewPet.vue'
 
 export default {
-  components: { UserNavBar, DogInfo, DogForm, EntryNewPet },
+  components: {  },
   //props:['user'],
   data() {
     return {

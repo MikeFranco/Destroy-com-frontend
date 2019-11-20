@@ -1,15 +1,69 @@
 <template>
   <section>
     <div class="nav-bar">
-      <NavBar/>
+      <NavBar />
     </div>
-    <div class="logo-div" >
-    <img src="../../assets/destroycom-logo.jpeg" alt="destroycom" class="destroycom-logo">
+    <div class="logo-div">
+      <img
+        src="../../assets/destroycom-logo.jpeg"
+        alt="destroycom"
+        class="destroycom-logo"
+      />
     </div>
-    <h1 class="adopt-title" >¡ADOPTA A UN COMPAÑERO!</h1>
-    <div class="back" >
-      <h1>¿Su organización necesita mejor conectividad?</h1>
+    <div class="first-screen">
+      <h1 class="main-txt">¿Tu empresa necesita mejor conectividad?</h1>
     </div>
+
+    <div class="icons" >
+      <div class="icon" >
+        <img
+          src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/01.png"
+          data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/01.png"
+          width="150"
+          height="150"
+          alt="Image module"
+        />
+        <h3>Prueba</h3>
+      </div>
+    <img
+      src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/02.png"
+      data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/02.png"
+      width="150"
+      height="150"
+      alt="Image module"
+    />
+    <img
+      src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/06.png"
+      data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/06.png"
+      width="150"
+      height="150"
+      alt="Image module"
+    />
+    <img
+      src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/03-1.png"
+      data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/03-1.png"
+      width="150"
+      height="150"
+      alt="Image module"
+    />
+    <img
+      src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/04-1.png"
+      data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/04-1.png"
+      width="150"
+      height="150"
+      alt="Image module"
+    />
+    <img
+      src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/05-1.png"
+      data-src="https://dmd.com.mx/new-dmd/wp-content/uploads/2019/08/05-1.png"
+      width="150"
+      height="150"
+      alt="Image module"
+    />
+    </div>
+
+    
+
     <!-- <div class="adopt">
       <DogInfoHome
         class="col-md-4 d-flex align-items-stretch "
@@ -23,41 +77,28 @@
 </template>
 
 <script>
-import NavBar from '~/components/generic-cmpts/NavBar.vue';
-import MissingDogs from '~/components/home-cmpts/MissingDogs.vue';
-import DogInfoHome from '~/components/generic-cmpts/DogInfoHome.vue';
+import NavBar from "~/components/generic-cmpts/NavBar.vue";
 
 export default {
-  components: { NavBar, MissingDogs, DogInfoHome },
-  props:['missingPets'],
-  data(){
-    return {
-      pawIcon: 'mdi-paw',
-      alertIcon: 'mdi-alert',
-      homeIcon: 'mdi-home',
-      hover: false,
-      hardcodedItems:[
-          {name: 'Koda', age: 5, size: 'Grande',
-          description: 'Pastor Belga', img:require('../../assets/Koda.jpg')},
-          {name: 'Manchas', age: 1, size: 'Pequeño',
-          description: 'Boston terrier', img:require('../../assets/perrito1.jpg')},
-          {name: 'Link', age: 3, size: 'Pequeño',
-          description: 'Maltipo blanco', img:require('../../assets/perrito2.jpg')},
-          {name: 'Negro', age: 7, size: 'Grande',
-          description: 'Whippet café', img:require('../../assets/perrito3.jpg')}
-      ],
-    }
+  components: { NavBar },
+  props: ["missingPets"],
+  data() {
+    return {};
   }
-}
+};
 </script>
 
 <style scoped>
-.back {
-  background-color: red;
-  min-height: 50000px;
-  margin-left: 50px;
-  margin-right: 50px;
+.main-txt{
+  color: white;
+  font-size: 60px;
+  padding-top: 10px;
+}
+.first-screen {
+  background-image: url("../../assets/servidor.jpg");
   text-align: center;
+  min-height: 700px;
+  opacity : 0.3;
 }
 
 .nav-bar {
@@ -66,13 +107,22 @@ export default {
   top: 0;
 }
 
-
-.destroycom-logo{
+.destroycom-logo {
   max-width: 130px;
   margin-top: 8px;
   margin-left: 10px;
-
 }
 
+.icons {
+  margin-top: 50px;
+}
 
+.icon {
+  display: inline;
+}
+
+img {
+  margin-left: 130px;
+  /* margin-right: 50px; */
+}
 </style>

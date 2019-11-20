@@ -18,9 +18,8 @@
 </template>
 
 <script>
-import Map from '../generic-cmpts/Map.vue';
+
 export default {
-  components: { Map },
   props:['dog']
 
 }
