@@ -3,7 +3,7 @@
     <div class="btns" >
       <ul>
         <li @click="goToLink('/')" class="active" ><a>Inicio</a></li>
-        <li>Nosotros</li>
+        <li @click="goToLink('/team')" >Nosotros</li>
         <li>Servicios</li>
         <li>Cotizaciones</li>
         <li>Clientes</li>

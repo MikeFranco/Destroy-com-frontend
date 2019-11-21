@@ -18,7 +18,4 @@ export default {
 
 <style scoped>
 
-section {
-  background-color: #005584;
-}
 </style>
