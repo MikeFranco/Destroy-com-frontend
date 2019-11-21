@@ -3,12 +3,12 @@
     <div class="btns" >
       <ul>
         <li @click="goToLink('/login')" class="active" ><a>Inicio</a></li>
-        <li><a>Nosotros</a></li>
-        <li><a>Servicios</a></li>
-        <li><a>Cotizaciones</a></li>
-        <li><a>Clientes</a></li>
-        <li><a>Portafolio</a></li>
-        <li><a>Prosoft</a></li>
+        <li>Nosotros</li>
+        <li>Servicios</li>
+        <li>Cotizaciones</li>
+        <li>Clientes</li>
+        <li>Portafolio</li>
+        <li>Prosoft</li>
       </ul>
       <!-- <button class="login-btn" @click="goToLink('/login')">Iniciar Sesión</button> -->
     </div>
@@ -53,7 +53,7 @@ li:last-child {
   border-left: 1px solid #bbb;
 }
 
-li a {
+li {
   display: block;
   color: white;
   text-align: center;
@@ -61,7 +61,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li:hover:not(.active) {
   background-color: rgb(17, 60, 202);
   cursor: pointer;
 }
