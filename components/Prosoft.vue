@@ -20,6 +20,11 @@ export default { };
 
 <style scoped>
 
+h1 {
+  color: white;
+  margin-top: 20px;
+}
+
 .pdf {
   min-width: 880px;
   max-width: 880px;
@@ -31,8 +36,12 @@ export default { };
 .carrousel{
   max-width: 700px;
   overflow-x: auto;
-  background-color: #005584;
   margin: 50px;
+  text-align: center;
+}
+
+section {
+  background-color: #005584;
 }
 
 </style>
