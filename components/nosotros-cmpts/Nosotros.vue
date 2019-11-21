@@ -3,6 +3,23 @@
     <div class="row">
       <div class="column">
         <div class="card">
+          <img src="../../assets/Adrian.jpeg" alt="Adrián" style="width:100%" />
+          <div class="container">
+            <h2>Adrían García Juárez</h2>
+            <p class="title">CEO</p>
+            <p class="adr-p">
+              Soy muy bueno en contabilidad y la programación, en mis tiempos
+              libres me gusta hacer ejercicio, jugar tochito y escuchar música.
+              También soy bueno organizando equipos para concluir tareas y
+              proyectos. Me gusta salir al cine y programar páginas web.
+            </p>
+            <!-- <p>example@example.com</p> -->
+            <p class="adr-btn" ><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
           <img
             src="../../assets/MikeFranco.jpg"
             alt="Mike"
@@ -11,30 +28,13 @@
           <div class="container">
             <h2>Miguel Ángel Franco Peza</h2>
             <p class="title">CTO & Web Developer</p>
-            <p>
+            <p class="mike-p" >
               Me gusta hacer ejercicio (crossfit y fútbol), escuchar música y
               jugar videojuegos. Soy bastante bueno como desarrollador web,
               tanto en front, back y un poco en DevOps
             </p>
             <!-- <p>example@example.com</p> -->
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="card">
-          <img src="../../assets/Adrian.jpeg" alt="Adrián" style="width:100%" />
-          <div class="container">
-            <h2>Adrían García Juárez</h2>
-            <p class="title">CEO</p>
-            <p>
-              Soy muy bueno en contabilidad y la programación, en mis tiempos
-              libres me gusta hacer ejercicio, jugar tochito y escuchar música.
-              También soy bueno organizando equipos para concluir tareas y
-              proyectos. Me gusta salir al cine y programar páginas web.
-            </p>
-            <!-- <p>example@example.com</p> -->
-            <p><button class="button">Contact</button></p>
+            <p class="mike-btn" ><button class="button">Contact</button></p>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
               programación de aplicaciones móviles y bueno en un poco en todo
             </p>
             <!-- <p>example@example.com</p> -->
-            <p><button class="button">Contact</button></p>
+            <p class="juan-btn" ><button class="button">Contact</button></p>
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@
               matemáticas, contabilidad y programación.
             </p>
             <!-- <p>example@example.com</p> -->
-            <p><button class="button">Contact</button></p>
+            <p class="ahcel-btn" ><button class="button">Contact</button></p>
           </div>
         </div>
       </div>
@@ -131,6 +131,7 @@ section {
 
 .title {
   color: grey;
+  margin-bottom: 5px;
 }
 
 .button {
@@ -143,7 +144,6 @@ section {
   text-align: center;
   cursor: pointer;
   width: 100%;
-  bottom: 0;
 }
 
 .button:hover {
@@ -151,12 +151,37 @@ section {
 }
 
 h2 {
-  padding: 15px;
+  padding-top: 12px;
+  padding-bottom: 15px;
   text-align: center;
 }
 
 p{
   text-align: center;
-  padding: 5px;
+  padding: 2px;
+}
+
+.adr-btn {
+  margin-top: 104px;
+}
+
+.adr-p {
+  margin-top: 31px;
+}
+
+.mike-btn {
+  margin-top: 85px;
+}
+
+.mike-p {
+  margin-top: 30px;
+}
+
+.juan-btn {
+  margin-top: 8px;
+}
+
+.ahcel-btn {
+  margin-top: 9px;
 }
 </style>
