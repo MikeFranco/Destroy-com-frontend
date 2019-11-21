@@ -37,7 +37,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(17, 112, 202);
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -61,12 +61,12 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color: rgb(17, 60, 202);
   cursor: pointer;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: rgb(189, 27, 15);
 }
 
 button {

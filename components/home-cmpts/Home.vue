@@ -13,7 +13,7 @@
     <div class="first-screen">
       <h1 class="main-txt">¿Tu empresa necesita mejor conectividad?</h1>
     </div>
-    
+
     <div class="row">
       <div class="column">
         <img
@@ -23,7 +23,7 @@
           height="150"
           alt="Image module"
         />
-        <h3>Prueba Destroy-Com</h3>
+        <center><h3>Prueba Destroy-Com</h3></center>
       </div>
 
       <div class="column">
@@ -34,7 +34,7 @@
           height="150"
           alt="Image module"
         />
-        <h3>Capacítate</h3>
+        <center><h3>Capacítate</h3></center>
       </div>
 
       <div class="column">
@@ -45,7 +45,7 @@
           height="150"
           alt="Image module"
         />
-        <h3>Cronograma de atención</h3>
+        <center><h3>Cronograma de atención</h3></center>
       </div>
 
       <div class="column">
@@ -56,7 +56,7 @@
           height="150"
           alt="Image module"
         />
-        <h3>Soluciona incidencias</h3>
+        <center><h3>Soluciona incidencias</h3></center>
       </div>
 
       <div class="column">
@@ -67,7 +67,7 @@
           height="150"
           alt="Image module"
         />
-        <h3>Preguntas frecuentes</h3>
+        <center><h3>Preguntas frecuentes</h3></center>
       </div>
 
       <div class="column">
@@ -78,9 +78,17 @@
           height="150"
           alt="Image module"
         />
-        <h3>Diagnostica tu red</h3>
+        <center><h3>Diagnostica tu red</h3></center>
       </div>
+    </div>
 
+    <div class="nuestro-trabajo">
+      <h1>Nuestro trabajo</h1>
+      <h3>
+        En Destroy-Com tenemos el producto que necesitas para optimizar tus procesos,
+        reducir el tiempo de desarrollo y solucionar tus incidencias. ¡Contacta
+        a nuestro Equipo Elite para que te ofrezcan la mejor solución para ti!
+      </h3>
     </div>
 
     <!-- <div class="adopt">
@@ -132,7 +140,6 @@ export default {
   margin-left: 10px;
 }
 
-
 .row > .column {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -157,5 +164,13 @@ export default {
 img {
   margin-left: 130px;
   /* margin-right: 50px; */
+}
+
+.nuestro-trabajo {
+  background-color: blue;
+  min-height: 100px;
+  min-width: 100%;
+  padding: 20px;
+  margin-bottom: 25px;
 }
 </style>
