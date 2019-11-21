@@ -110,13 +110,14 @@ export default {
 .main-txt {
   color: white;
   font-size: 60px;
-  padding-top: 10px;
+  padding-top: 350px;
 }
 
 .first-screen {
-  background-image: url("../../assets/servidor.jpg");
+  background-image: url("../../assets/servidor.png");
   text-align: center;
   min-height: 700px;
+  background-size: cover;
 }
 
 .nav-bar {
@@ -176,9 +177,10 @@ img {
 }
 
 .nuestro-trabajo h3 {
-  margin-top: 20px;
+  margin-top: 180px;
+  vertical-align: middle;
   margin-left: 20px;
-  text-align: justify;
+  text-align: center;
 }
 
 </style>

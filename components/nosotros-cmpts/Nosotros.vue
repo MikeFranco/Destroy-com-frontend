@@ -47,7 +47,7 @@
           />
           <div class="container">
             <h2>Juan Francisco Vazquez Davalos</h2>
-            <p class="title">Diseñador</p>
+            <p class="title">Sales</p>
             <p>
               Me gusta jugar futbol y salir con mis amigos, también escuchar
               música y leer de vez en cuando. Me agrada socializar y ser
