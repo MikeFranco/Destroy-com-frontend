@@ -6,8 +6,36 @@
         link="https://drive.google.com/file/d/1jPwkrYvtZwCDwlp4PZH2uW87aSRGoenz/view?usp=sharing"
       />
       <PDFViewer
+        msg="Cotizaciones"
+        link="https://drive.google.com/file/d/1mxT6zM7rXc5mRd-noRAnDhnPTZ0shcnc/view?usp=sharing"
+      />
+      <PDFViewer
         msg="Carta Compromiso"
         link="https://drive.google.com/file/d/13fPIowW0N7hFltv7HGQ2LOAHTgHj0lpe/view?usp=sharing"
+      />
+      <PDFViewer
+        msg="Modelo paramétrico"
+        link="https://drive.google.com/file/d/18fFOtcnomTwFRbzkpEOdSh-FBr17flvI/view?usp=sharing"
+      />
+      <PDFViewer
+        msg="Representantes legales"
+        link="https://drive.google.com/file/d/1EsVWXJ-Flobmqu88d0YAv6BSTCDF-Xsh/view?usp=sharing"
+      />
+      <PDFViewer
+        msg="Proveedores"
+        link="https://drive.google.com/file/d/190aH4BDEmHZ9zkUwjpt6rZbNwvXbI2X2/view?usp=sharing"
+      />
+      <PDFViewer
+        msg="Diagrama de Grantt"
+        link="https://drive.google.com/file/d/1qF-2WK_0Vvl6PSP09_QLPDrZglm4yHi_/view?usp=sharing"
+      />
+      <PDFViewer
+        msg="Capacitación"
+        link="https://drive.google.com/file/d/1K8WZXwc1tsTPP9TJqaUgTDmHwZEnJw_S/view?usp=sharing"
+      />
+      <PDFViewer
+        msg="Carta AutoFinanciamiento"
+        link="https://drive.google.com/file/d/1cSMSLNWzyx9-Ah1ku-aEXQJPhDF1Hmri/view?usp=sharing"
       />
     </div>
   </section>
