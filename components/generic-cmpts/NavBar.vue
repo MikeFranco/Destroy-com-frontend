@@ -8,7 +8,7 @@
         <li>Cotizaciones</li>
         <li>Clientes</li>
         <li>Portafolio</li>
-        <li>Prosoft</li>
+        <li @click="goToLink('/prosoft')" >Prosoft</li>
       </ul>
       <!-- <button class="login-btn" @click="goToLink('/login')">Iniciar Sesión</button> -->
     </div>
