@@ -1,15 +1,16 @@
 <template>
   <div>
-    <Home
-      :missingPets="missingPets"
-    />
+    <Home/>
+  <Footer />
   </div>
 </template>
 
 <script>
 import Home from '~/components/home-cmpts/Home.vue';
+import Footer from "~/components/generic-cmpts/Footer";
+
 export default {
-  components:{ Home },
+  components:{ Home, Footer },
   data(){
     return {
       missingPets: []

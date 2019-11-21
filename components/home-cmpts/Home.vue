@@ -162,7 +162,6 @@ img {
   background-color: #005584;
   min-height: 100px;
   min-width: 100%;
-  margin-bottom: 25px;
   color: white;
   display: grid;
   grid-template-columns: repeat(2, 1fr);

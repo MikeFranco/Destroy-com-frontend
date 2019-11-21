@@ -9,15 +9,16 @@
         link="https://drive.google.com/file/d/1jPwkrYvtZwCDwlp4PZH2uW87aSRGoenz/view?usp=sharing"
       />
     </div>
+    <Footer />
   </section>
 </template>
 
 <script>
 import NavBar from "~/components/generic-cmpts/NavBar";
 import PDFViewer from "~/components/generic-cmpts/PDFViewer";
-
+import Footer from "~/components/generic-cmpts/Footer";
 export default {
-  components: { NavBar, PDFViewer }
+  components: { NavBar, PDFViewer, Footer }
 };
 </script>
 
