@@ -92,16 +92,6 @@
       <img src="../../assets/serverguy.jpeg" alt="ServerGuy">
 
     </div>
-
-    <!-- <div class="adopt">
-      <DogInfoHome
-        class="col-md-4 d-flex align-items-stretch "
-        v-for="(dog, index) in hardcodedItems"
-        :key="index"
-        :dog="dog"
-        :showMap="false"
-      />
-    </div> -->
   </section>
 </template>
 
@@ -136,9 +126,9 @@ export default {
 }
 
 .destroycom-logo {
-  max-width: 130px;
-  margin-top: 8px;
-  margin-left: 10px;
+  max-width: 300px;
+  margin-top: 20px;
+  margin-left: 800px;
 }
 
 .row > .column {

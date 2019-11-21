@@ -1,14 +1,14 @@
 <template>
   <section>
-    <div class="btns" >
+    <div class="btns">
       <ul>
-        <li @click="goToLink('/')" class="active" ><a>Inicio</a></li>
-        <li @click="goToLink('/team')" >Nosotros</li>
+        <li @click="goToLink('/')" class="active"><a>Inicio</a></li>
+        <li @click="goToLink('/team')">Nosotros</li>
         <!-- <li @click="goToLink('/labor')">Servicios</li> -->
-        <li @click="goToLink('/pricing')" >Cotizaciones</li>
+        <li @click="goToLink('/pricing')">Cotizaciones</li>
         <!-- <li>Clientes</li>
         <li>Portafolio</li> -->
-        <li @click="goToLink('/prosoft')" >Prosoft</li>
+        <li @click="goToLink('/prosoft')">Prosoft</li>
       </ul>
       <!-- <button class="login-btn" @click="goToLink('/login')">Iniciar Sesión</button> -->
     </div>
@@ -17,19 +17,19 @@
 
 <script>
 export default {
-  methods:{
-    goToLink(route){
+  methods: {
+    goToLink(route) {
       this.$router.push(route);
     }
   }
-
-}
+};
 </script>
 
 <style scoped>
+
 .btns {
   text-align: right;
-  padding: .1px;
+  padding: 0.1px;
   font-size: 200%;
 }
 
@@ -46,7 +46,7 @@ ul {
 
 li {
   float: right;
-  border-right:1px solid #bbb;
+  border-right: 1px solid #bbb;
 }
 
 li:last-child {
@@ -78,5 +78,4 @@ li:hover:not(.active) {
 button {
   padding: 10px;
 }
-
 </style>
