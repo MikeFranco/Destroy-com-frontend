@@ -8,6 +8,7 @@
         <li><a>Cotizaciones</a></li>
         <li><a>Clientes</a></li>
         <li><a>Portafolio</a></li>
+        <li><a>Prosoft</a></li>
       </ul>
       <!-- <button class="login-btn" @click="goToLink('/login')">Iniciar Sesión</button> -->
     </div>
