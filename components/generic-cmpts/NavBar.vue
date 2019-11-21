@@ -2,7 +2,7 @@
   <section>
     <div class="btns" >
       <ul>
-        <li @click="goToLink('/login')" class="active" ><a>Inicio</a></li>
+        <li @click="goToLink('/')" class="active" ><a>Inicio</a></li>
         <li>Nosotros</li>
         <li>Servicios</li>
         <li>Cotizaciones</li>
@@ -68,6 +68,11 @@ li:hover:not(.active) {
 
 .active {
   background-color: rgb(189, 27, 15);
+}
+
+.active:hover {
+  cursor: pointer;
+  background-color: rgb(17, 60, 202);
 }
 
 button {

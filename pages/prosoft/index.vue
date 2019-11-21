@@ -1,5 +1,8 @@
 <template>
   <section>
+    <div class="nav-bar">
+      <NavBar />
+    </div>
     <div class="carrousel" >
       <div>
         <h1>Carta bajo protesta</h1>
@@ -14,10 +17,19 @@
 </template>
 
 <script>
-export default {};
+import NavBar from "~/components/generic-cmpts/NavBar.vue";
+export default {
+  components: { NavBar },
+};
 </script>
 
 <style scoped>
+
+.nav-bar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
 
 .pdf {
   min-width: 880px;
@@ -30,7 +42,7 @@ export default {};
 .carrousel{
   max-width: 700px;
   overflow-x: auto;
-  background-color: red;
+  background-color: #005584;
   margin: 50px;
 }
 

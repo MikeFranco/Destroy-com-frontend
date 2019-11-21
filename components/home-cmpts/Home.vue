@@ -110,7 +110,6 @@ import NavBar from "~/components/generic-cmpts/NavBar.vue";
 
 export default {
   components: { NavBar },
-  props: ["missingPets"],
   data() {
     return {};
   }
