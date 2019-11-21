@@ -4,10 +4,10 @@
       <ul>
         <li @click="goToLink('/')" class="active" ><a>Inicio</a></li>
         <li @click="goToLink('/team')" >Nosotros</li>
-        <li>Servicios</li>
+        <!-- <li @click="goToLink('/labor')">Servicios</li> -->
         <li @click="goToLink('/pricing')" >Cotizaciones</li>
-        <li>Clientes</li>
-        <li>Portafolio</li>
+        <!-- <li>Clientes</li>
+        <li>Portafolio</li> -->
         <li @click="goToLink('/prosoft')" >Prosoft</li>
       </ul>
       <!-- <button class="login-btn" @click="goToLink('/login')">Iniciar Sesión</button> -->
