@@ -83,12 +83,14 @@
     </div>
 
     <div class="nuestro-trabajo">
-      <h1>Nuestro trabajo</h1>
       <h3>
+      <h1>Nuestro trabajo</h1><br/>
         En Destroy-Com tenemos el producto que necesitas para optimizar tus procesos,
         reducir el tiempo de desarrollo y solucionar tus incidencias. ¡Contacta
         a nuestro Equipo Elite para que te ofrezcan la mejor solución para ti!
       </h3>
+      <img src="../../assets/serverguy.jpeg" alt="ServerGuy">
+
     </div>
 
     <!-- <div class="adopt">
@@ -167,10 +169,27 @@ img {
 }
 
 .nuestro-trabajo {
-  background-color: blue;
+  background-color: #005584;
   min-height: 100px;
   min-width: 100%;
-  padding: 20px;
   margin-bottom: 25px;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: min-content;
+
 }
+
+.nuestro-trabajo img {
+  max-width: 900px;
+
+}
+
+.nuestro-trabajo h3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: justify;
+}
+
 </style>
