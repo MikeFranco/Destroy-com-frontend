@@ -5,7 +5,7 @@
         <li @click="goToLink('/')" class="active" ><a>Inicio</a></li>
         <li @click="goToLink('/team')" >Nosotros</li>
         <li>Servicios</li>
-        <li>Cotizaciones</li>
+        <li @click="goToLink('/pricing')" >Cotizaciones</li>
         <li>Clientes</li>
         <li>Portafolio</li>
         <li @click="goToLink('/prosoft')" >Prosoft</li>
