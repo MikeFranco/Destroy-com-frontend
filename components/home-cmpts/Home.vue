@@ -101,14 +101,12 @@
         para tu empresa.
       </h4>
       <v-btn
-        rounded="true"
         color="#005584"
         dark
         class="white--text btn "
         @click="goToLink('/contact-us')"
       >Solicitar cotización</v-btn>
       <v-btn
-        rounded="true"
         color="#005584"
         dark
         class="white--text btn "

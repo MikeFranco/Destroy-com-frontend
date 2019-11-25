@@ -1,0 +1,455 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20191125.101758.6395.0.001.json",
+    "dumpEventTime": "2019-11-25T10:17:58Z",
+    "dumpEventTimeStamp": "1574698678107",
+    "processId": 6395,
+    "cwd": "/home/mikefranco/Documentos/Tareas IPN/Estudio Mundial/página web",
+    "commandLine": [
+      "/usr/bin/node",
+      "/home/mikefranco/Documentos/Tareas IPN/Estudio Mundial/página web/node_modules/.bin/nuxt"
+    ],
+    "nodejsVersion": "v12.13.0",
+    "glibcVersionRuntime": "2.30",
+    "glibcVersionCompiler": "2.30",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.19.84-1-MANJARO",
+    "osVersion": "#1 SMP PREEMPT Wed Nov 13 00:07:37 UTC 2019",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz",
+        "speed": 2597,
+        "user": 30396900,
+        "nice": 93100,
+        "sys": 6616700,
+        "idle": 97679200,
+        "irq": 1140400
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz",
+        "speed": 2635,
+        "user": 30615600,
+        "nice": 72400,
+        "sys": 6584300,
+        "idle": 47040300,
+        "irq": 772800
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz",
+        "speed": 2706,
+        "user": 30777500,
+        "nice": 90300,
+        "sys": 6655500,
+        "idle": 47104900,
+        "irq": 804400
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4500U CPU @ 1.80GHz",
+        "speed": 2657,
+        "user": 31078200,
+        "nice": 81800,
+        "sys": 6605600,
+        "idle": 47122800,
+        "irq": 746000
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp3s0",
+        "internal": false,
+        "mac": "6c:71:d9:bf:19:db",
+        "address": "192.168.43.219",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp3s0",
+        "internal": false,
+        "mac": "6c:71:d9:bf:19:db",
+        "address": "fe80::3550:61dd:7d78:5eba",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "mikejager007-pc"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000564f745372aa",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, v8::Local<v8::String>) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f744046b8",
+      "symbol": "node::OnFatalError(char const*, char const*) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f7456a0f2",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f7456a358",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f746ebda6",
+      "symbol": " [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f746ebee9",
+      "symbol": " [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f746fcd2f",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f746fda08",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f746fff4c",
+      "symbol": "v8::internal::Heap::AllocateRawWithLightRetry(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f74700251",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f746c69aa",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f749dfe3d",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/usr/bin/node]"
+    },
+    {
+      "pc": "0x0000564f74d361d9",
+      "symbol": " [/usr/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2146607104,
+    "totalCommittedMemory": 2145064192,
+    "usedMemory": 2113142072,
+    "availableMemory": 77327776,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 32568,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 1212048,
+        "capacity": 1047488,
+        "used": 194976,
+        "available": 852512
+      },
+      "old_space": {
+        "memorySize": 2044571648,
+        "committedMemory": 2044448568,
+        "capacity": 2041879152,
+        "used": 2017889144,
+        "available": 23990008
+      },
+      "code_space": {
+        "memorySize": 4096000,
+        "committedMemory": 3791744,
+        "capacity": 3194848,
+        "used": 3194848,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 6819840,
+        "committedMemory": 6818944,
+        "capacity": 3339440,
+        "used": 3339440,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 87851008,
+        "committedMemory": 87851008,
+        "capacity": 87669448,
+        "used": 87669448,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 909312,
+        "committedMemory": 909312,
+        "capacity": 821920,
+        "used": 821920,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 381.023,
+    "kernelCpuSeconds": 28.7425,
+    "cpuConsumptionPercent": 6.08774,
+    "maxRss": 4224438272,
+    "pageFaults": {
+      "IORequired": 23,
+      "IONotRequired": 2394893
+    },
+    "fsActivity": {
+      "reads": 267806,
+      "writes": 3552
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 184.476,
+    "kernelCpuSeconds": 8.09411,
+    "cpuConsumptionPercent": 2.86094,
+    "fsActivity": {
+      "reads": 57976,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "SHELL": "/bin/zsh",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "SESSION_MANAGER": "local/mikejager007-pc:@/tmp/.ICE-unix/1043,unix/mikejager007-pc:/tmp/.ICE-unix/1043",
+    "COLORTERM": "truecolor",
+    "LESS": "-R",
+    "XDG_MENU_PREFIX": "gnome-",
+    "ZSH_TMUX_AUTOSTARTED": "true",
+    "TMUX": "/tmp//tmux-1001/default,2862,3",
+    "NODE": "/usr/bin/node",
+    "npm_config_ignore_scripts": "",
+    "LC_ADDRESS": "es_MX.UTF-8",
+    "LC_NAME": "es_MX.UTF-8",
+    "SSH_AUTH_SOCK": "/run/user/1001/keyring/ssh",
+    "npm_package_private": "true",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev\"],\"original\":[\"dev\"]}",
+    "npm_config_bin_links": "true",
+    "DESKTOP_SESSION": "gnome",
+    "LC_MONETARY": "es_MX.UTF-8",
+    "CLOUDSDK_PYTHON_ARGS": "-S",
+    "EDITOR": "/usr/bin/vim",
+    "npm_package_dependencies_nuxt": "^2.0.0",
+    "PWD": "/home/mikefranco/Documentos/Tareas IPN/Estudio Mundial/página web",
+    "npm_config_save_prefix": "^",
+    "XDG_SESSION_DESKTOP": "gnome",
+    "LOGNAME": "mikefranco",
+    "QT_QPA_PLATFORMTHEME": "qt5ct",
+    "XDG_SESSION_TYPE": "x11",
+    "npm_package_readmeFilename": "README.md",
+    "PORT": "3333",
+    "npm_package_scripts_build": "nuxt build",
+    "npm_package_devDependencies__nuxtjs_vuetify": "^1.0.0",
+    "npm_config__fortawesome_registry": "https://npm.fontawesome.com/",
+    "_": "/home/mikefranco/Documentos/Tareas IPN/Estudio Mundial/página web/node_modules/.bin/nuxt",
+    "XAUTHORITY": "/run/user/1001/gdm/Xauthority",
+    "npm_package_devDependencies__mdi_font": "^4.5.95",
+    "WINDOWPATH": "2",
+    "GDM_LANG": "es_MX.UTF-8",
+    "HOME": "/home/mikefranco",
+    "USERNAME": "mikefranco",
+    "npm_config_version_git_tag": "true",
+    "LC_PAPER": "es_MX.UTF-8",
+    "LANG": "es_MX.UTF-8",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "XDG_CURRENT_DESKTOP": "GNOME",
+    "npm_config_init_license": "MIT",
+    "npm_package_version": "1.0.0",
+    "_ZSH_TMUX_FIXED_CONFIG": "/home/mikefranco/.oh-my-zsh/plugins/tmux/tmux.only.conf",
+    "VTE_VERSION": "5802",
+    "CLOUDSDK_ROOT_DIR": "/opt/google-cloud-sdk",
+    "npm_config_version_commit_hooks": "true",
+    "npm_package_dependencies__nuxtjs_axios": "^5.3.6",
+    "npm_package_dependencies_vuejs_noty": "^0.1.3",
+    "GNOME_TERMINAL_SCREEN": "/org/gnome/Terminal/screen/6eaa1072_e1a6_4c9b_9f3a_c1623a37ea5d",
+    "INVOCATION_ID": "7ae4a8e20692409b894ca3bda747c8ce",
+    "MANAGERPID": "983",
+    "INIT_CWD": "/home/mikefranco/Documentos/Tareas IPN/Estudio Mundial/página web",
+    "CLOUDSDK_PYTHON": "python2",
+    "npm_lifecycle_script": "PORT=3333 nuxt",
+    "npm_package_description": "Frontend para el hackathon MxHacksVI",
+    "npm_config_version_tag_prefix": "v",
+    "YARN_WRAP_OUTPUT": "false",
+    "XDG_SESSION_CLASS": "user",
+    "TERM": "xterm-256color",
+    "LC_IDENTIFICATION": "es_MX.UTF-8",
+    "npm_package_name": "Destroy-Com",
+    "ZSH": "/home/mikefranco/.oh-my-zsh",
+    "GOOGLE_CLOUD_SDK_HOME": "/opt/google-cloud-sdk",
+    "USER": "mikefranco",
+    "TMUX_PANE": "%4",
+    "GNOME_TERMINAL_SERVICE": ":1.79",
+    "npm_package_devDependencies__mdi_js": "^4.5.95",
+    "DISPLAY": ":1",
+    "npm_lifecycle_event": "dev",
+    "SHLVL": "2",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_message": "v%s",
+    "PAGER": "less",
+    "LC_TELEPHONE": "es_MX.UTF-8",
+    "LC_MEASUREMENT": "es_MX.UTF-8",
+    "npm_config_user_agent": "yarn/1.19.0 npm/? node/v12.13.0 linux x64",
+    "npm_execpath": "/home/mikefranco/.yarn/bin/yarn.js",
+    "LC_CTYPE": "es_MX.UTF-8",
+    "XDG_RUNTIME_DIR": "/run/user/1001",
+    "npm_config_strict_ssl": "true",
+    "ZSH_TMUX_TERM": "screen-256color",
+    "LC_TIME": "es_MX.UTF-8",
+    "npm_package_scripts_dev": "PORT=3333 nuxt",
+    "JOURNAL_STREAM": "9:31966",
+    "XDG_DATA_DIRS": "/home/mikefranco/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+    "npm_package_scripts_start": "nuxt start",
+    "PATH": "/tmp/yarn--1574691946748-0.5720625758379094:/home/mikefranco/Documentos/Tareas IPN/Estudio Mundial/página web/node_modules/.bin:/home/mikefranco/.config/yarn/link/node_modules/.bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/home/mikefranco/.yarn/bin:/home/mikefranco/.config/yarn/global/node_modules/.bin:/home/mikefranco/.local/bin:/opt/google-cloud-sdk/bin:/home/mikefranco/.yarn/bin:/home/mikefranco/.config/yarn/global/node_modules/.bin:/home/mikefranco/.yarn/bin:/home/mikefranco/.config/yarn/global/node_modules/.bin:/home/mikefranco/.local/bin:/opt/google-cloud-sdk/bin:/home/mikefranco/.local/bin:/opt/google-cloud-sdk/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl",
+    "GDMSESSION": "gnome",
+    "npm_package_author_name": "MikeFranco, EstebGtzMtz, Mariixrch",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1001/bus",
+    "MAIL": "/var/spool/mail/mikefranco",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_ignore_optional": "",
+    "npm_node_execpath": "/usr/bin/node",
+    "npm_package_scripts_generate": "nuxt generate",
+    "LC_NUMERIC": "es_MX.UTF-8",
+    "OLDPWD": "/home/mikefranco/Documentos/Tareas IPN/Estudio Mundial/página web",
+    "npm_config_init_version": "1.0.0",
+    "NODE_ENV": "development",
+    "_AXIOS_BASE_URL_": "http://localhost:3333/",
+    "VUE_ENV": "server"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 65536,
+      "hard": 65536
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 524288,
+      "hard": 524288
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 62863,
+      "hard": 62863
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/usr/lib/libz.so.1",
+    "/usr/lib/libuv.so.1",
+    "/usr/lib/libcares.so.2",
+    "/usr/lib/libnghttp2.so.14",
+    "/usr/lib/libcrypto.so.1.1",
+    "/usr/lib/libssl.so.1.1",
+    "/usr/lib/libicui18n.so.64",
+    "/usr/lib/libicuuc.so.64",
+    "/usr/lib/libdl.so.2",
+    "/usr/lib/libstdc++.so.6",
+    "/usr/lib/libm.so.6",
+    "/usr/lib/libgcc_s.so.1",
+    "/usr/lib/libpthread.so.0",
+    "/usr/lib/libc.so.6",
+    "/usr/lib/librt.so.1",
+    "/usr/lib/libnsl.so.2",
+    "/usr/lib/libicudata.so.64",
+    "/lib64/ld-linux-x86-64.so.2",
+    "/usr/lib/libtirpc.so.3",
+    "/usr/lib/libgssapi_krb5.so.2",
+    "/usr/lib/libkrb5.so.3",
+    "/usr/lib/libk5crypto.so.3",
+    "/usr/lib/libcom_err.so.2",
+    "/usr/lib/libkrb5support.so.0",
+    "/usr/lib/libkeyutils.so.1",
+    "/usr/lib/libresolv.so.2",
+    "/usr/lib/libnss_files.so.2"
+  ]
+}

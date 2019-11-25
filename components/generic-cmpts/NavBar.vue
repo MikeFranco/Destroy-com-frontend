@@ -4,6 +4,7 @@
       <ul>
         <li @click="goToLink('/')" class="active"><a>Inicio</a></li>
         <li @click="goToLink('/team')">Nosotros</li>
+        <li @click="goToLink('contact-us')">Contáctanos</li>
         <li @click="goToLink('/pricing')">Cotizaciones</li>
         <li @click="goToLink('/prosoft')">Prosoft</li>
         <li @click="goToLink('/goverment')" >Gobierno</li>

@@ -14,7 +14,7 @@
               proyectos. Me gusta salir al cine y programar páginas web.
             </p>
             <!-- <p>example@example.com</p> -->
-            <p class="adr-btn"><button class="button"><a href="https://www.facebook.com/MikeFranco007" target="_blank"
+            <p class="adr-btn"><button class="button"><a href="https://www.facebook.com/adrian.garciapicky" target="_blank"
                 >Contact</a></button></p>
           </div>
         </div>
@@ -83,7 +83,7 @@
               matemáticas, contabilidad y programación.
             </p>
             <!-- <p>example@example.com</p> -->
-            <p class="ahcel-btn"><button class="button"><a href="https://www.facebook.com/MikeFranco007" target="_blank"
+            <p class="ahcel-btn"><button class="button"><a href="https://www.facebook.com/ahcel.torres.fragoso" target="_blank"
                 >Contact</a></button></p>
           </div>
         </div>
