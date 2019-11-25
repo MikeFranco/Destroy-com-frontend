@@ -56,8 +56,9 @@ h1 {
 
 .carrousel {
   max-width: 1800px;
-  max-height: 850px;
+  max-height: 789px;
   overflow-x: auto;
+  overflow-y: hidden;
   margin-top: 30px;
   margin-left: 50px;
   text-align: center;

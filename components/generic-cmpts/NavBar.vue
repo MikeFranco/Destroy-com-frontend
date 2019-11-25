@@ -6,9 +6,9 @@
         <li @click="goToLink('/team')">Nosotros</li>
         <li @click="goToLink('/pricing')">Cotizaciones</li>
         <li @click="goToLink('/prosoft')">Prosoft</li>
-        <li>Clientes</li>
+        <li @click="goToLink('/goverment')" >Gobierno</li>
+        <li @click="goToLink('/clients')" >Clientes</li>
         <li>Servicios</li>
-        <li>Portafolio</li>
       </ul>
     </div>
   </section>

@@ -14,7 +14,8 @@
               proyectos. Me gusta salir al cine y programar páginas web.
             </p>
             <!-- <p>example@example.com</p> -->
-            <p class="adr-btn" ><button class="button">Contact</button></p>
+            <p class="adr-btn"><button class="button"><a href="https://www.facebook.com/MikeFranco007" target="_blank"
+                >Contact</a></button></p>
           </div>
         </div>
       </div>
@@ -28,13 +29,18 @@
           <div class="container">
             <h2>Miguel Ángel Franco Peza</h2>
             <p class="title">CTO & Web Developer</p>
-            <p class="mike-p" >
+            <p class="mike-p">
               Me gusta hacer ejercicio (crossfit y fútbol), escuchar música y
               jugar videojuegos. Soy bastante bueno como desarrollador web,
               tanto en front, back y un poco en DevOps
             </p>
             <!-- <p>example@example.com</p> -->
-            <p class="mike-btn" ><button class="button">Contact</button></p>
+            <p class="mike-btn">
+              <button class="button">
+                <a href="https://www.facebook.com/MikeFranco007" target="_blank"
+                >Contact</a>
+              </button>
+            </p>
           </div>
         </div>
       </div>
@@ -55,7 +61,8 @@
               programación de aplicaciones móviles y bueno en un poco en todo
             </p>
             <!-- <p>example@example.com</p> -->
-            <p class="juan-btn" ><button class="button">Contact</button></p>
+            <p class="juan-btn"><button class="button"><a href="https://www.facebook.com/francisco.vazquez.3194" target="_blank"
+                >Contact</a></button></p>
           </div>
         </div>
       </div>
@@ -76,7 +83,8 @@
               matemáticas, contabilidad y programación.
             </p>
             <!-- <p>example@example.com</p> -->
-            <p class="ahcel-btn" ><button class="button">Contact</button></p>
+            <p class="ahcel-btn"><button class="button"><a href="https://www.facebook.com/MikeFranco007" target="_blank"
+                >Contact</a></button></p>
           </div>
         </div>
       </div>
@@ -156,7 +164,7 @@ h2 {
   text-align: center;
 }
 
-p{
+p {
   text-align: center;
   padding: 2px;
 }
@@ -183,5 +191,10 @@ p{
 
 .ahcel-btn {
   margin-top: 9px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 </style>

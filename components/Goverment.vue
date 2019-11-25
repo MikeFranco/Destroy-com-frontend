@@ -2,8 +2,8 @@
   <section>
     <div class="carrousel">
       <PDFViewer
-        msg="Carta Compromiso"
-        link="https://drive.google.com/file/d/13fPIowW0N7hFltv7HGQ2LOAHTgHj0lpe/view?usp=sharing"
+        msg="Carta Bajo Protesta"
+        link="https://drive.google.com/file/d/1jPwkrYvtZwCDwlp4PZH2uW87aSRGoenz/view?usp=sharing"
       />
     </div>
   </section>
@@ -11,18 +11,15 @@
 
 <script>
 import PDFViewer from "~/components/generic-cmpts/PDFViewer";
-
 export default {
-  components: {
-    PDFViewer
-  }
+  components: { PDFViewer }
 };
 </script>
 
-<style scoped>
+<style>
 .carrousel {
   max-width: 1800px;
-  max-height: 792px;
+  max-height: 789px;
   overflow-x: auto;
   overflow-y: hidden;
   margin-top: 30px;
