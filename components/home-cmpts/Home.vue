@@ -97,15 +97,23 @@
     <div class="contact">
       <h1>Habla con un experto</h1>
       <h4>
-        Deja que nuestro equipo te ayude a evaluar la mejor solución para tu
-        empresa.
+        Deja que nuestro equipo te ayude a evaluar la mejor solución <br/>
+        para tu empresa.
       </h4>
-      <v-btn rounded="true" color="#005584" dark class="white--text" @click="goToLink('/contact-us')">Solicitar cotización</v-btn>
-      <v-btn rounded="true" color="#005584" dark class="white--text" @click="goToLink('/contact-us')">Quiero que me llamen</v-btn>
-      <i
-        class="featured-icon dfd-socicon-telephone-handle-silhouette"
-        style="font-size:32px; "
-      ></i>
+      <v-btn
+        rounded="true"
+        color="#005584"
+        dark
+        class="white--text btn "
+        @click="goToLink('/contact-us')"
+      >Solicitar cotización</v-btn>
+      <v-btn
+        rounded="true"
+        color="#005584"
+        dark
+        class="white--text btn "
+        @click="goToLink('/contact-us')"
+      >Quiero que me llamen</v-btn>
     </div>
   </section>
 </template>
@@ -124,6 +132,26 @@ export default {
 <style scoped>
 .contact {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact h1 {
+  padding: 15px;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.contact h4 {
+  padding: 15px;
+  color: gray;
+}
+
+.contact v-btn {
+  padding: 10px 35px;
+}
+
+.btn{
+  margin: 15px 10%;
 }
 
 .main-txt {
