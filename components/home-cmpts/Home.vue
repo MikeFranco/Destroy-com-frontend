@@ -123,8 +123,10 @@ import NavBar from "~/components/generic-cmpts/NavBar.vue";
 
 export default {
   components: { NavBar },
-  data() {
-    return {};
+  methods: {
+    goToLink(route) {
+      this.$router.push(route);
+    }
   }
 };
 </script>
