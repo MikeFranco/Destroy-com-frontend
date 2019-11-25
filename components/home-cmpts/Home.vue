@@ -84,13 +84,28 @@
 
     <div class="nuestro-trabajo">
       <h3>
-      <h1>Nuestro trabajo</h1><br/>
-        En Destroy-Com tenemos el producto que necesitas para optimizar tus procesos,
-        reducir el tiempo de desarrollo y solucionar tus incidencias. ¡Contacta
-        a nuestro Equipo Elite para que te ofrezcan la mejor solución para ti!
+        <h1>Nuestro trabajo</h1>
+        <br />
+        En Destroy-Com tenemos el producto que necesitas para optimizar tus
+        procesos, reducir el tiempo de desarrollo y solucionar tus incidencias.
+        ¡Contacta a nuestro Equipo Elite para que te ofrezcan la mejor solución
+        para ti!
       </h3>
-      <img src="../../assets/serverguy.jpeg" alt="ServerGuy">
+      <img src="../../assets/serverguy.jpeg" alt="ServerGuy" />
+    </div>
 
+    <div class="contact">
+      <h1>Habla con un experto</h1>
+      <h4>
+        Deja que nuestro equipo te ayude a evaluar la mejor solución para tu
+        empresa.
+      </h4>
+      <v-btn rounded="true" color="#005584" dark class="white--text" @click="goToLink('/contact-us')">Solicitar cotización</v-btn>
+      <v-btn rounded="true" color="#005584" dark class="white--text" @click="goToLink('/contact-us')">Quiero que me llamen</v-btn>
+      <i
+        class="featured-icon dfd-socicon-telephone-handle-silhouette"
+        style="font-size:32px; "
+      ></i>
     </div>
   </section>
 </template>
@@ -107,6 +122,10 @@ export default {
 </script>
 
 <style scoped>
+.contact {
+  text-align: center;
+}
+
 .main-txt {
   color: white;
   font-size: 60px;
@@ -167,12 +186,10 @@ img {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
   grid-auto-rows: min-content;
-
 }
 
 .nuestro-trabajo img {
   max-width: 900px;
-
 }
 
 .nuestro-trabajo h3 {
@@ -181,5 +198,4 @@ img {
   margin-left: 20px;
   text-align: center;
 }
-
 </style>
