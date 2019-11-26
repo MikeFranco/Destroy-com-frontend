@@ -2,8 +2,16 @@
   <section>
     <div class="carrousel">
       <PDFViewer
-        msg="Carta Bajo Protesta"
-        link="https://drive.google.com/file/d/1jPwkrYvtZwCDwlp4PZH2uW87aSRGoenz/view?usp=sharing"
+        msg="Licitación"
+        link="https://drive.google.com/file/d/1eKUo--01mFvI_ejdUFO4ZFlG9v3e45wL/view?usp=sharing"
+      />
+      <PDFViewer
+        msg="Convocatoria múltiple"
+        link="https://drive.google.com/file/d/1_HWNP7rbiZ7YECvvz-5YoNpYAx24jTOq/view?usp=sharing"
+      />
+      <PDFViewer
+        msg="Propuesta al gobierno"
+        link="https://drive.google.com/file/d/1PFfFsqf58zo4GuqfbatyXGka1457dYl8/view?usp=sharing"
       />
     </div>
   </section>

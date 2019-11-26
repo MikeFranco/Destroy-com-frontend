@@ -6,6 +6,10 @@
         link="https://drive.google.com/file/d/1jPwkrYvtZwCDwlp4PZH2uW87aSRGoenz/view?usp=sharing"
       />
       <PDFViewer
+        msg="Solicitud de Apoyo"
+        link="https://drive.google.com/file/d/1BjbUVtssHaH8UumpxjXWqR6I0GuRYZIe/view?usp=sharing"
+      />
+      <PDFViewer
         msg="Cotizaciones"
         link="https://drive.google.com/file/d/1mxT6zM7rXc5mRd-noRAnDhnPTZ0shcnc/view?usp=sharing"
       />
@@ -36,6 +40,10 @@
       <PDFViewer
         msg="Carta AutoFinanciamiento"
         link="https://drive.google.com/file/d/1cSMSLNWzyx9-Ah1ku-aEXQJPhDF1Hmri/view?usp=sharing"
+      />
+      <PDFViewer
+        msg="Reporte Final"
+        link="https://drive.google.com/file/d/17VyEYqzc-VVpVYDjSp0gTri1DIADFBWz/view?usp=sharing"
       />
     </div>
   </section>

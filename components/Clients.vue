@@ -2,8 +2,8 @@
   <section>
     <div class="carrousel">
       <PDFViewer
-        msg="Carta Compromiso"
-        link="https://drive.google.com/file/d/13fPIowW0N7hFltv7HGQ2LOAHTgHj0lpe/view?usp=sharing"
+        msg="Nuestros clientes"
+        link="https://drive.google.com/file/d/12YMAxJSbQszYS2JReP0VmHzLC8RxlgOd/view?usp=sharing"
       />
     </div>
   </section>
@@ -21,12 +21,13 @@ export default {
 
 <style scoped>
 .carrousel {
-  max-width: 1800px;
+  max-width: 1000px;
   max-height: 792px;
   overflow-x: auto;
   overflow-y: hidden;
   margin-top: 30px;
-  margin-left: 50px;
+  padding-left: 50px;
+  margin-left: 25%;
   text-align: center;
   background-color: #005584;
   display: grid;
