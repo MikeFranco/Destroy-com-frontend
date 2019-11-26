@@ -103,12 +103,14 @@
       <v-btn
         color="#005584"
         dark
+        x-large
         class="white--text btn "
         @click="goToLink('/contact-us')"
       >Solicitar cotización</v-btn>
       <v-btn
         color="#005584"
         dark
+        x-large
         class="white--text btn "
         @click="goToLink('/contact-us')"
       >Quiero que me llamen</v-btn>
