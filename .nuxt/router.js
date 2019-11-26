@@ -9,6 +9,7 @@ const _c8183ad6 = () => interopDefault(import('../pages/goverment/index.vue' /* 
 const _2a38ce28 = () => interopDefault(import('../pages/labor/index.vue' /* webpackChunkName: "pages/labor/index" */))
 const _42a45e7c = () => interopDefault(import('../pages/pricing/index.vue' /* webpackChunkName: "pages/pricing/index" */))
 const _00d0f813 = () => interopDefault(import('../pages/prosoft/index.vue' /* webpackChunkName: "pages/prosoft/index" */))
+const _fa900690 = () => interopDefault(import('../pages/services/index.vue' /* webpackChunkName: "pages/services/index" */))
 const _40633377 = () => interopDefault(import('../pages/team/index.vue' /* webpackChunkName: "pages/team/index" */))
 const _5904466a = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -45,6 +46,10 @@ export const routerOptions = {
     path: "/prosoft",
     component: _00d0f813,
     name: "prosoft"
+  }, {
+    path: "/services",
+    component: _fa900690,
+    name: "services"
   }, {
     path: "/team",
     component: _40633377,

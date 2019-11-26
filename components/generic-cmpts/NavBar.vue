@@ -7,9 +7,9 @@
         <li @click="goToLink('contact-us')">Contáctanos</li>
         <li @click="goToLink('/pricing')">Cotizaciones</li>
         <li @click="goToLink('/prosoft')">Prosoft</li>
-        <li @click="goToLink('/goverment')" >Gobierno</li>
-        <li @click="goToLink('/clients')" >Clientes</li>
-        <li>Servicios</li>
+        <li @click="goToLink('/goverment')">Gobierno</li>
+        <li @click="goToLink('/clients')">Clientes</li>
+        <li @click="goToLink('/services')">Servicios</li>
       </ul>
     </div>
   </section>
