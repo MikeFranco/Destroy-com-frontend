@@ -10,13 +10,13 @@
         <li class="list" @click="goToLink('/clients')">Clientes</li>
         <li class="list" @click="goToLink('/services')">Servicios</li>
         <li class="images">
-          <img src="../../assets/facebook.png" alt="fb-logo" />
+          <a href="https://www.facebook.com/MikeFranco007" target="_blank"><img src="../../assets/facebook.png" alt="fb-logo" /></a>
         </li>
         <li class="images">
-          <img src="../../assets/insta.png" alt="insta-logo" />
+          <a href="https://www.instagram.com/programiker/" target="_blank"><img src="../../assets/insta.png" alt="insta-logo" /></a>
         </li>
         <li class="images">
-          <img src="../../assets/twitter.png" alt="twitter-logo" />
+          <a href="https://twitter.com/PrograMiker?s=09" target="_blank"><img src="../../assets/twitter.png" alt="twitter-logo" /></a>
         </li>
       </ul>
     </div>
