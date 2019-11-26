@@ -3,7 +3,7 @@
      <div class="carrousel">
       <PDFViewer
         msg="Nuestros servicios"
-        link="https://drive.google.com/file/d/1eKUo--01mFvI_ejdUFO4ZFlG9v3e45wL/view?usp=sharing"
+        link="https://drive.google.com/file/d/1IbKYhdSkcvVw3W1hCBjmrQ6MxTXAhatk/view?usp=sharing"
       />
     </div>
   </section>
