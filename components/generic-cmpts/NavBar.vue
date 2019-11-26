@@ -2,14 +2,22 @@
   <section>
     <div class="btns">
       <ul>
-        <li @click="goToLink('/')" class="active"><a>Inicio</a></li>
-        <li @click="goToLink('/team')">Nosotros</li>
-        <li @click="goToLink('contact-us')">Contáctanos</li>
-        <li @click="goToLink('/pricing')">Cotizaciones</li>
-        <li @click="goToLink('/prosoft')">Prosoft</li>
-        <li @click="goToLink('/goverment')">Gobierno</li>
-        <li @click="goToLink('/clients')">Clientes</li>
-        <li @click="goToLink('/services')">Servicios</li>
+        <li class="active list" @click="goToLink('/team')">Nosotros</li>
+        <li class="list" @click="goToLink('contact-us')">Contáctanos</li>
+        <li class="list" @click="goToLink('/pricing')">Cotizaciones</li>
+        <li class="list" @click="goToLink('/prosoft')">Prosoft</li>
+        <li class="list" @click="goToLink('/goverment')">Gobierno</li>
+        <li class="list" @click="goToLink('/clients')">Clientes</li>
+        <li class="list" @click="goToLink('/services')">Servicios</li>
+        <li class="images">
+          <img src="../../assets/facebook.png" alt="fb-logo" />
+        </li>
+        <li class="images">
+          <img src="../../assets/insta.png" alt="insta-logo" />
+        </li>
+        <li class="images">
+          <img src="../../assets/twitter.png" alt="twitter-logo" />
+        </li>
       </ul>
     </div>
   </section>
@@ -26,11 +34,19 @@ export default {
 </script>
 
 <style scoped>
-
 .btns {
   text-align: right;
   padding: 0.1px;
   font-size: 200%;
+}
+
+img {
+  max-width: 44px;
+}
+
+.images {
+  padding: 0 10px;
+  padding-top: 14px;
 }
 
 ul {
@@ -47,10 +63,12 @@ ul {
 li {
   float: right;
   border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
 }
 
-li:last-child {
-  border-left: 1px solid #bbb;
+li:not(.list) {
+  border-left: none;
+  border-right: none;
 }
 
 li {
@@ -64,6 +82,10 @@ li {
 li:hover:not(.active) {
   background-color: rgb(17, 60, 202);
   cursor: pointer;
+}
+
+.images {
+  border-right: none;
 }
 
 .active {
